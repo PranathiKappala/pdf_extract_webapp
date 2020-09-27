@@ -1,0 +1,195 @@
+.extract-container .main-content{
+    background-color: #f2f5f6;
+}
+
+.extract-container .main-content .top{
+    border-color: #eeeeee;
+    background: #2681dd url(../../Images/sidenav_mask.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 25vh;
+    padding-left: 30px;
+}
+
+.extract-container .main-content .top input[type="text"]{
+    border: none;
+    background: none;
+    height: 75px;
+    font-size: 30px;
+    font-size: bold;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.extract-container .main-content .top label{
+    font-size: 30px;
+    font-size: bold;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.extract-container .main-content .bottom{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.extract-container .main-content .bottom button{
+    height: 35px;
+    border-radius: 3px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.extract-container .main-content .file-container i{
+    display: inline-block;
+    font-size: 50px;
+    padding-top: 20px;
+    color: #02ce9d;
+    cursor: pointer;
+}
+
+.extract-container .main-content .file-container .Files{
+    padding: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #999999;
+}
+
+.extract-container .main-content .top input[type="text"]:focus{
+    outline : none;
+}
+
+.extract-container .main-content .top input[type="text"]::placeholder {
+    color: #ced4da;
+    opacity: 1;
+  }
+
+.extract-container .main-content .file-container{
+    background: #ffffff;
+    width: 100%;
+    height: 70vh;
+    border-radius: 4px;
+    position: relative;
+    bottom: 50px;
+}
+
+.extract-container .main-content .extract{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    bottom: 50px;
+}
+
+.extract-container .main-content .extract .fields-container, .pdf-container{
+    background: #ffffff;
+    border-radius: 4px;
+    height: 70vh;
+}
+
+.extract-container .main-content .extract .fields-container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extract-container .main-content .extract .fields-container .content{
+    position: relative;
+    max-height: 445px;
+    min-height: 400px;
+    overflow-y: auto;
+    margin: 2% auto;
+}
+
+.extract-container .main-content .extract .pdf-container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extract-container .main-content .extract .pdf-container .canvas-container{
+    position: relative;
+    max-height: 85%;
+    overflow-y: scroll;
+    margin: 2% auto;
+}
+
+.extract-container .main-content .extract .pdf-container .canvas-container .canvas{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.form-btns button{
+    border:none;
+    width: 80px;
+    height:30px;
+    border-radius: 3px;
+    margin: 0px 10px;
+    background-color: rgb(2, 206, 157);
+    box-shadow: rgba(2, 206, 157, 0.33) 0px 6px 10px 0px;
+    color: #ffffff;
+    border-color: rgb(2, 206, 157);
+}
+.form-btns button[disabled]{
+ opacity: 0.65;
+}
+.form-group{
+    width : 95%;
+}
+.form-group .form-control{
+  border:none;
+  background-color: #f2f5f6;
+  font-weight: 500;
+  margin: 0px 0px 0px 3px;
+}
+
+.field-btns button{
+  border:none;
+  height:30px;
+  width: 30px;
+  border-radius: 3px
+}
+#inputId:-webkit-autofill, #inputId:-webkit-autofill:hover, #inputId:-webkit-autofill:focus {
+    border: 1px solid transparent;
+    -webkit-text-fill-color: rgba(255,255,255);
+    box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.table-box{
+  background-color: #f2f5f6;
+  overflow: auto;
+}
+.table-box td{
+  width:25%
+}
+#inptId:-webkit-autofill, #inptId:-webkit-autofill:hover, #inptId:-webkit-autofill:focus {
+    border: 1px solid transparent;
+    -webkit-text-fill-color: #495057;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.inptId:-webkit-autofill, .inptId:-webkit-autofill:hover, .inptId:-webkit-autofill:focus {
+    border: 1px solid transparent;
+    -webkit-text-fill-color: #495057;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.react-pdf__Page__canvas{
+    min-width: 100%;
+}
